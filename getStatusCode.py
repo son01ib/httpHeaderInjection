@@ -1,3 +1,7 @@
+#Script used to get the http status code from a given domain/subdomain. Will put the 
+#domain(s)/subdomian(s) in the respective file
+#of the status code if a 2xx or 3xx is returned.
+
 import httplib2
 import os
 import argparse
