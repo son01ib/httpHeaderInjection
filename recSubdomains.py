@@ -1,3 +1,6 @@
+#Script to get subdomains of given domain(s). Uses the site https://crt.sh/?q=<insert domain>
+#to get the subdomains and removes any duplicates.
+
 import requests
 import argparse
 import sys
